@@ -10,6 +10,7 @@ void uptime(){
     fscanf(f, "%lf", &uptime);
     fclose(f);
 
+    //test
     int minutes = uptime/60;
     int hours = minutes/60;
 
