@@ -5,7 +5,6 @@
 void meminfo() {
 
   int memT;
-  int memA;
   FILE *f = fopen("/proc/meminfo", "r");
   char line[256];
   while (fgets(line, sizeof(line), f)) {
